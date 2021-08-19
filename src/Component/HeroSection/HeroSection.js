@@ -5,7 +5,9 @@ function HeroSection() {
     return (
     <div className='hero-container'>
         <video src='./assets/videos/video.mp4' autoPlay loop muted />
-            <h1 className="hero-title">Open for Pick Up <span>&</span> Delivery</h1>
+            {/* <h1 className="hero-title"><span>Pick Up </span><span>& </span><span>Delivery</span></h1> */}
+            <h1 className="sc-giIncl gHUUHu">Greatest SuShi Ever</h1>
+            <p>READY IN 60 SECONDS</p>
         <div className='hero-btns'>
             {/* <Button
             className='btns'

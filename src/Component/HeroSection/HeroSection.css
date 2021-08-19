@@ -1,13 +1,14 @@
 video {
     object-fit: cover;
     width: 100%;
-    height: 100%;
+    height: 127%;
     position: fixed;
     z-index: -1;
 }
 
 .hero-container {
-    height: 100vh;
+    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+    height: 90vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -15,33 +16,47 @@ video {
     align-items: center;
     /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); */
     object-fit: contain;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    /* z-index: 0; */
-    overflow: hidden;
-    pointer-events: none;
+    /* padding-top: 30px; */
+}
+
+.gHUUHu {
+    font-size: clamp(1.6rem, 5vw, 5rem);
+    margin-bottom: 1rem;
+    box-shadow: rgb(233 186 35) 3px 5px;
+    letter-spacing: 3px;
 }
 
 .hero-container>h1 {
     color: #fff;
     font-size: 100px;
-    /* margin-top: -10px; */
-    text-align: center;
+    margin-top: -100px;
 }
 
-.hero-container>h1>span{
-    color:var(--primary);
+.hero-title {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.hero-title>span:nth-child(1) {
+    color: rgb(0, 195, 255);
+}
+
+.hero-title>span:nth-child(2) {
+    color: rgb(255, 255, 255);
+}
+
+.hero-title>span:nth-child(3) {
+    color: rgb(255, 255, 0);
 }
 
 .hero-container>p {
     margin-top: 8px;
-    color: #fff;
-    font-size: 32px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-        'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 0, 0);
+    /* font-size: 32px; */
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif; */
+    font-size: clamp(2rem, 2.5vw, 3rem);
+    margin-bottom: 2rem;
 }
 
 .hero-btns {
@@ -81,4 +96,9 @@ video {
     .btn {
         width: 100%;
     }
+}
+
+
+p {
+    
 }

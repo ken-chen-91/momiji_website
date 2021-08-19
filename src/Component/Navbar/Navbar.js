@@ -46,13 +46,13 @@ function Navbar() {
           </li>
           <li className="nav-item" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
             <Link to="/location" className="nav-links" onClick={closeMobileMenu}>
-              Location <i className="fas fa-caret-down" />
+              Location <i className="fas fa-caret-down arrow" />
             </Link>
             {dropdown && <Dropdown />}
           </li>
           <li className="nav-item">
             <Link to="/news" className="nav-links" onClick={closeMobileMenu}>
-              News + Events
+              Events
             </Link>
           </li>
 
@@ -63,7 +63,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link to="/contact-us" className="nav-links" onClick={closeMobileMenu}>
-              Job Seeker
+            Careers
             </Link>
           </li>
           <li className="nav-item">
@@ -77,7 +77,7 @@ function Navbar() {
             </Link>
           </li>
         </ul>
-        <Button label="Order Now !!!" />
+        <Button label="Order Now" />
       </nav>
     </>
   );
