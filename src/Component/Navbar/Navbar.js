@@ -77,7 +77,7 @@ function Navbar() {
             </Link>
           </li>
         </ul>
-        <Button label="Order Now" />
+        <Button label="Order Now" link="https://momiji-west-linn.hrpos.heartland.us/menu" />
       </nav>
     </>
   );
